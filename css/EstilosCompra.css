@@ -1,0 +1,32 @@
+body{
+    background-color: #83B4FF;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.Compra{
+    font-family: Agency FB;
+
+}
+
+.Compra a {
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: white;
+    padding: 8px;
+    color:black;
+    font-family: Agency FB;
+    letter-spacing: 2px;
+
+}

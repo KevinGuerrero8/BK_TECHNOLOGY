@@ -1,0 +1,220 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #83B4FF;
+
+}
+
+/* NavBoar */
+
+nav{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 15px;
+    list-style: none;
+}
+
+nav li a{
+    color: #141424;
+    text-decoration: none;
+    font-family: Agency FB;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+nav li a:hover{
+    color:#001A50;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: white;
+    padding: 8px;
+    color:black;
+    font-family: Agency FB;
+    letter-spacing: 2px;
+
+}
+  
+
+.Titulo{
+    text-align: right;
+    font-family: Agency FB;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* Imagen Principal */
+
+.Imagen1{
+    padding: 1%;
+}
+
+/* Main Seccion */
+
+.Texto1{
+    padding: 10px;
+    text-align: center;
+    font-size: 80%;
+    align-self: auto;
+    color: #004456;
+    font-family: Segoe UI;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    height: 280px;
+}
+
+.product{
+    padding: 10px;
+}
+
+.product .content{
+    background-color: white;
+    padding: 20px;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_buttom{
+    background-color: aliceblue;
+    width: 50%;
+    padding: 8px;
+    font-size: 30px;
+    border: 200px; 
+    cursor: pointer;
+    border-radius: 100px; 
+    font-family: Agency FB;
+    outline: none;
+}
+
+.main_buttom:hover{
+    background-color: #4880C6;
+}
+
+.Texto2{
+    text-align: center;
+}
+
+h2{
+    font-family: Agency FB;
+    font-size: 30px;
+    color: rgb(71, 123, 182);
+}
+
+h1{
+    text-align: center ;
+    font-family: Agency FB;
+    color: #001A50;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+::selection {
+  background: transparent;
+}
+ h1, h2{
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: Agency FB;
+  font-size: 40px;
+  color: white;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #7294df,
+               0 2px 0 #7294df,
+               0 3px 0 #7294df,
+               0 4px 0 #7294df,
+               0 5px 0 #7294df,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Agency FB;
+}
+
+p1{
+    font-family: Segoe UI;
+}
+
+.row{
+    align-items: center;
+}
+
+.modulo_pago1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modulo_pago_img{
+    margin-top: auto;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+
+.data{
+    margin: 10px;
+    width: 95%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.col-6{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.row{
+    margin: 75px;
+}
+
+.main_buttom1{
+    background-color: #4880C6;
+    width: 100%;
+    font-size: 35px;
+    border: 200px; 
+    cursor: pointer;
+    font-family: Agency FB;
+    outline: none;
+    border-radius: 10px;
+}
+
+.main_buttom1:hover{
+    background-color: #83B4FF;
+}
