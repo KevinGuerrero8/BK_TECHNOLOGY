@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+
+    .products{
+      display: inherit;
+      height: auto;
+      padding: 2%;
+    }
+}
+
+@media (max-width: 0px) {
+
+  .footer{
+    background-color: aqua;
+  }
+}
